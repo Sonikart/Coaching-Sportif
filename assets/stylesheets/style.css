@@ -1,0 +1,222 @@
+/* line 5, ../sass/style.scss */
+.col-md-6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, ../sass/style.scss */
+.container-fluid {
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 14, ../sass/style.scss */
+html, body {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.4;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* line 24, ../sass/style.scss */
+.active {
+  color: #FDD835;
+}
+
+/* line 27, ../sass/style.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 31, ../sass/style.scss */
+.gold {
+  color: #FDD835;
+}
+
+/* line 34, ../sass/style.scss */
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 38, ../sass/style.scss */
+.site-content {
+  padding-top: 66px;
+}
+
+/* line 43, ../sass/style.scss */
+.header {
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 66px;
+  line-height: 66px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 2px solid #FDD835;
+}
+
+/* line 55, ../sass/style.scss */
+.header__logo {
+  padding: 0 25px;
+  float: left;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+/* line 64, ../sass/style.scss */
+.menu {
+  margin-right: 15px;
+  float: right;
+  color: white;
+}
+/* line 68, ../sass/style.scss */
+.menu a {
+  padding: 0 10px;
+}
+/* line 71, ../sass/style.scss */
+.menu a:hover {
+  color: #FDD835;
+}
+
+/* line 77, ../sass/style.scss */
+.top__hero {
+  z-index: 1;
+  margin-top: -66px;
+  height: 974px;
+  background-image: url("../img/wallpaper_body.jpg");
+  background-attachment: fixed;
+  left: 0;
+  right: 0;
+}
+/* line 86, ../sass/style.scss */
+.top__hero .top__hero__content {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+/* line 92, ../sass/style.scss */
+.top__hero .top__hero__content .title__hero {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+/* line 100, ../sass/style.scss */
+.top__hero .top__hero__content .sous__title__hero {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: 'Montserrat';
+  letter-spacing: 1px;
+}
+
+/* line 111, ../sass/style.scss */
+.about__picture {
+  height: 400px;
+  left: 0;
+  right: 0;
+  background-image: url("../img/1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 118, ../sass/style.scss */
+.about__text {
+  padding: 20px 20px;
+  height: 400px;
+  left: 0;
+  right: 0;
+  background-color: #FDD835;
+  color: black;
+}
+
+/* line 126, ../sass/style.scss */
+.title__about {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Montserrat';
+}
+/* line 130, ../sass/style.scss */
+.title__about em {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 136, ../sass/style.scss */
+.text__p {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Montserrat';
+}
+
+/* line 142, ../sass/style.scss */
+.text__p_b {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-family: 'Montserrat';
+}
+
+/* line 149, ../sass/style.scss */
+.boxed__badge {
+  background-image: url("../img/badge.jpg");
+  background-attachment: fixed;
+}
+
+/* line 154, ../sass/style.scss */
+.one {
+  background-color: rgba(253, 216, 53, 0.8);
+  color: black;
+}
+
+/* line 159, ../sass/style.scss */
+.two {
+  background-color: rgba(148, 148, 148, 0.8);
+  color: #FDD835;
+}
+
+/* line 163, ../sass/style.scss */
+.three {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #FDD835;
+}
+
+/* line 167, ../sass/style.scss */
+.four {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+/* line 172, ../sass/style.scss */
+.content__badge {
+  height: auto;
+  left: 0;
+  right: 0;
+}
+/* line 176, ../sass/style.scss */
+.content__badge .box__badge {
+  padding: 15px 15px;
+  text-align: center;
+}
+/* line 180, ../sass/style.scss */
+.content__badge .box__badge i {
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+/* line 184, ../sass/style.scss */
+.content__badge .box__badge .desc_badge {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}

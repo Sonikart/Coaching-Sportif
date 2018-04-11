@@ -1,0 +1,195 @@
+$header-bg: black;
+$gold: #FDD835;
+
+// Base
+.col-md-6{
+  margin:0;
+  padding: 0;
+}
+.container-fluid{
+  margin:0;
+  padding-right: 0;
+  padding-left: 0;
+}
+html, body {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.4;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+}
+.active{
+  color: $gold;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.gold{
+  color: $gold;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+.site-content {
+  padding-top: 66px;
+}
+
+//Header
+.header {
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 66px;
+
+  line-height: 66px;
+
+  background-color: rgba($header-bg, 0.8);
+  border-bottom: 2px solid $gold;
+}
+.header__logo {
+  padding: 0 25px;
+  float: left;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+//Menu
+.menu {
+  margin-right: 15px;
+  float: right;
+  color: white;
+  a {
+    padding: 0 10px;
+  }
+  a:hover {
+    color: $gold;
+  }
+}
+
+// Hero
+.top__hero {
+  z-index: 1;
+  margin-top:-66px;
+  height: 974px;
+  background-image: url('../img/wallpaper_body.jpg');
+  background-attachment: fixed;
+  left: 0;
+  right: 0;
+
+  .top__hero__content {
+    height: 100%;
+    width: 100%;
+    background: rgba($header-bg, 0.5);
+    text-align: center;
+
+    .title__hero{
+      padding-top: 300px;
+      text-align: center;
+      font-size: 60px;
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    .sous__title__hero{
+      text-align: center;
+      color: white;
+      font-size:25px;
+      font-family: 'Montserrat';
+      letter-spacing: 1px;
+    }
+  }
+}
+
+// About Content
+.about__picture{
+  height: 400px;
+  left: 0; right: 0;
+  background-image:url('../img/1.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+.about__text{
+  padding: 20px 20px;
+  height: 400px;
+  left: 0; right: 0;
+  background-color: $gold;
+  color: $header-bg;
+}
+
+.title__about{
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Montserrat';
+  em{
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+.text__p{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Montserrat';
+}
+
+.text__p_b{
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-family: 'Montserrat';
+}
+
+.boxed__badge{
+  background-image:url('../img/badge.jpg');
+  background-attachment: fixed;
+}
+
+.one{
+  background-color: rgba($gold, 0.8);
+  color: $header-bg
+}
+
+.two{
+  background-color: rgba(#949494, 0.8);
+  color: $gold;
+}
+.three{
+  background-color: rgba($header-bg, 0.8);
+  color: $gold;
+}
+.four{
+  background-color: rgba(#fff, 0.8);
+  color: $header-bg;
+}
+
+.content__badge{
+  height: auto;
+  left: 0; right: 0;
+
+  .box__badge{
+    padding: 15px 15px;
+    text-align: center;
+
+    i{
+      font-size: 70px;
+      margin-bottom:15px;
+    }
+    .desc_badge{
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+
+
